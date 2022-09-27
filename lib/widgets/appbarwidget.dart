@@ -1,0 +1,3 @@
+import 'package:flutter/material.dart';
+
+AppBar AppBarWidget() => AppBar(actions: const [Icon(Icons.person_outline_rounded,color: Color(0XFF00B796), size: 24.0,),SizedBox(width: 5.0,),Icon(Icons.more_vert_rounded,color: Color(0XFF00B796), size: 24.0,),SizedBox(width: 20.0,)],leading: Icon(Icons.menu_rounded,color: Color(0XFF00B796), size: 24.0,),backgroundColor: const Color(0XFFF7F7F7) ,title: Column(children: const [Text("Earn",style: TextStyle(fontFamily: "Nunito", fontWeight: FontWeight.bold, fontSize: 32.0, color: Color(0XFF00B796))),Text("Share, Click & Earn",style: TextStyle(fontFamily: "Nunito", fontWeight: FontWeight.bold, fontSize: 11.0, color: Color(0XFF00B796)),),]) , elevation: 0, centerTitle: true);
